@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@600&family=Raleway:wght@700&family=Roboto+Mono:wght@100&display=swap");
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
 .navigation {
   height: 70px;
 }
@@ -261,4 +269,14 @@ nav ul li ul li a {
   margin-left: 40px;
   margin-top: 20px;
   color: #000000;
+}
+.hr{
+  width: 80px;
+  height:5px;
+  background-color:white;
+  border-radius:30px;
+  margin: 10px 0;
+}
+footer a{
+  color:gray;
 }
