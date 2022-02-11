@@ -1,14 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@600&family=Raleway:wght@700&family=Roboto+Mono:wght@100&display=swap");
-li{
-  list-style: none;
-}
-a{
-  text-decoration: none;
-  color:black;
-}
-
 .navigation {
   height: 70px;
+}
+body {
+  overflow-x: hidden;
 }
 
 header {
@@ -165,11 +160,9 @@ nav ul li ul li a {
 }
 
 .hero-section .hero-content h1 {
-  position: static;
   width: 646px;
   height: 168px;
-  left: 0px;
-  top: 0px;
+
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -208,6 +201,21 @@ nav ul li ul li a {
   box-shadow: 0px 8px 10px -6px rgba(16, 24, 40, 0.1),
     0px 20px 25px -5px rgba(16, 24, 40, 0.1);
   color: white;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.hire:hover {
+  color: black;
+}
+
+.job:hover {
+  color: black !important;
 }
 
 .hero-button .job {
@@ -222,6 +230,13 @@ nav ul li ul li a {
     0px 20px 25px -5px rgba(16, 24, 40, 0.1);
   margin-left: 20px;
   color: white;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
 }
 
 /* Clients Section */
@@ -245,8 +260,8 @@ nav ul li ul li a {
   margin-top: 10px;
 }
 
-.clients-content{
-    margin-left: 30px;
+.clients-content {
+  margin-left: 30px;
 }
 
 .clients-content span {
@@ -270,13 +285,1059 @@ nav ul li ul li a {
   margin-top: 20px;
   color: #000000;
 }
-.hr{
+
+/* TESTIMONIAL CSS */
+.testimonial {
+  background-image: url(/img/woman-computer.png);
+  height: 150vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonial-heading {
+  padding-top: 80px;
+}
+
+.testimonial-heading h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.testimonial-heading p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  margin-top: 20px;
+  color: #000000;
+}
+
+.testimonial-card {
+  /* position: absolute;
+  
+  height: 450px;
+  left: 127px;
+  top: 2157px; */
+  padding: 30px 38px;
+  margin-top: 40px;
+  /* Primary/20 */
+
+  background: rgba(0, 166, 242, 0.2);
+  /* Shadow/xxlarge */
+
+  box-shadow: 0px 25px 50px -12px rgba(16, 24, 40, 0.25);
+  border-radius: 20px;
+}
+
+.testimonial-content h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.testimonial-content h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.02em;
+
+  color: #7b7373;
+}
+
+.testimonial-content p {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+  margin-top: 45px;
+  letter-spacing: -0.02em;
+
+  color: #7b7373;
+}
+
+.testimonial-social {
+  display: flex;
+}
+
+.testimonial .social-link {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin: 10px;
+  background: rgba(0, 166, 242, 0.8);
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial .social-link:hover {
+  background-color: #f75622;
+}
+
+.testimonial .social-link i {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
+.testimonial .social-link a {
+  text-decoration: none;
+}
+
+.testimonial hr {
+  border: 5px solid #1ba5f6;
+}
+
+/* Project */
+.project {
+  height: 150vh;
+}
+
+.project-heading {
+  padding-top: 70px;
+}
+
+.project-heading h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 110%;
+  /* or 57px */
+
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+
+.project-heading p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  padding-top: 20px;
+  color: #000000;
+}
+
+#main-slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 8rem;
+  width: 110vw;
+  margin-left: -220px;
+}
+#main-slider .slide {
+  height: auto;
+  width: 440px !important;
+  transition: all 0.5s;
+  background: #ffffff;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+}
+
+.slide .card-title {
+  font-size: 0.9rem;
+}
+.slide .card-body {
+  padding: 0.8rem;
+}
+.slide img {
+  border-radius: 10px 10px 0 0;
+  filter: grayscale(100%);
+  transition: all 1s;
+}
+.slide .card-body p {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  transition: all 1s;
+  opacity: 0;
+}
+.slide.active img {
+  filter: none;
+}
+.slide.active .card-body p {
+  opacity: 1;
+}
+
+#side-1 {
+  z-index: 99;
+  transform: translateX(100%) scale(1.5);
+}
+.slider-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: -80px;
+}
+.slider-btn {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  background: #e7e5e5;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 62px;
+}
+.slider-btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #0e6fff;
+  border: none;
+}
+.slide-indicator-container {
+  margin: 6rem auto 1rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.slide-indicator {
+  border-radius: 50%;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 0.2rem;
+  border: 1px solid #6e6e6e;
+}
+.slide-indicator:hover {
+  cursor: pointer;
+}
+.slide-indicator.active {
+  background-color: #0e6fff;
+  border-color: #00accd;
+}
+.btn-contact {
+  background-color: #fff;
+  border: 1px solid #b3b3b3;
+  border-radius: 50px;
+  color: #a5a5a5;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+  transition: all 1s;
+}
+.slide.active .btn-contact {
+  background-color: #0e6fff;
+  color: #fff;
+  border: transparent;
+}
+.btn-contact:hover,
+.slide.active .btn-contact:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #0e6fff;
+  border: transparent;
+}
+
+/* Counter */
+.counter {
+  background: #e4ecf2;
+  height: 70vh;
+}
+
+.sectionClass {
+  padding: 20px 0px 50px 0px;
+  position: relative;
+  display: block;
+}
+
+.fullWidth {
+  width: 100% !important;
+  display: table;
+  float: none;
+  padding: 0;
+  min-height: 1px;
+  height: 100%;
+  position: relative;
+}
+
+.headerLine {
+  width: 160px;
+  height: 2px;
+  display: inline-block;
+}
+
+.projectFactsWrap {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#projectFacts .fullWidth {
+  padding: 0;
+}
+
+.projectFactsWrap .item {
+  width: 25%;
+  height: 100%;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.projectFactsWrap .item p.number {
+  font-size: 40px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.projectFactsWrap .item p {
+  color: black;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  font-family: "Open Sans";
+}
+
+.projectFactsWrap .item span {
+  width: 60px;
+  background: black;
+  height: 2px;
+  display: block;
+  margin: 0 auto;
+}
+#number1,
+#number2,
+#number3,
+#number4 {
+  color: #0e6fff;
+}
+
+.projectFactsWrap .item i {
+  vertical-align: middle;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 786px) {
+  .projectFactsWrap .item {
+    flex: 0 0 50%;
+  }
+}
+
+.counter .item img {
+  height: 72px;
+}
+
+.hr {
   width: 80px;
-  height:5px;
-  background-color:white;
-  border-radius:30px;
+  height: 5px;
+  background-color: white;
+  border-radius: 30px;
   margin: 10px 0;
 }
-footer a{
-  color:gray;
+
+footer {
+  background-image: linear-gradient(94.41deg, #cfd1d2 0%, #ebecee 100%);
+  height: 508px;
+}
+
+.footer-logo {
+  margin-top: 180px;
+}
+
+footer ul {
+  margin-top: 140px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: gray;
+  text-decoration: none;
+}
+
+footer .head {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+footer li a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-logo .gmail {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.numb {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -0.02em;
+
+  /* Primary/100 */
+
+  color: #00a6f2;
+}
+
+.call-to-action-content {
+  height: 293px;
+}
+
+.call-to-action-content h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 120%;
+  /* or 43px */
+
+  letter-spacing: -0.03em;
+}
+
+.call-to-action-content p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 120%;
+  /* or 24px */
+
+  letter-spacing: -0.01em;
+}
+
+.hireus {
+  color: #0e6fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* MEDIA QUERRY */
+
+
+/* 414 */
+
+@media only screen and (max-device-width: 414px) {
+  .hero-content h1 {
+    width: 90% !important;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 28px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .hero-content p {
+    padding-top: -0px !important;
+  }
+
+  .hero-button {
+    display: flex !important;
+    flex-direction: row;
+
+    margin: 0px !important;
+  }
+
+  .header {
+    width: 95%;
+  }
+
+  .hero-button button {
+    width: 177px !important;
+  }
+
+  .hero-image img {
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  .clients {
+    width: 95%;
+  }
+
+  .clients-content {
+    margin: -25px !important;
+  }
+
+  .clients-content h2 {
+    font-size: 35px;
+  }
+
+  .clients-content span {
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+
+  .clients-content p {
+    font-size: 19px;
+    margin-left: 10px;
+  }
+
+  .clients-image img{
+    width: 300px !important;
+    margin-left: 40px !important;
+  }
+
+  .testimonial-card img {
+    width: 300px;
+  }
+
+  .testimonial-content p {
+    font-size: 18px;
+  }
+
+  .testimonial-card {
+    height: 140vh;
+  }
+
+  .testimonial {
+    height: 200vh;
+  }
+
+  .testimonial .social-link {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-link i {
+    font-size: 30px !important;
+  }
+
+  .slider-controls {
+    margin-top: 20px;
+  }
+
+  #main-slider {
+    width: 250vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 200px;
+  }
+
+  .counter {
+    height: 95vh;
+  }
+
+  .call-to-action-content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    color: white;
+    padding: 0px !important;
+  }
+
+  .call-to-action-content h2 {
+    line-height: 35px;
+    font-size: 22px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .call-to-action-content p{
+    font-size: 17px;
+  }
+
+  .hireus{
+    font-size: 20px !important;
+  }
+
+  .footer-logo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  footer{
+    height: 115vh;
+  }
+
+  footer ul{
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-device-width: 375px) {
+  .hero-content h1 {
+    width: 90% !important;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .hero-content p {
+    padding-top: -0px !important;
+  }
+
+  .hero-button {
+    display: flex !important;
+    flex-direction: row;
+
+    margin: 0px !important;
+  }
+
+  .header {
+    width: 95%;
+  }
+
+  .hero-button button {
+    width: 155px !important;
+  }
+
+  .hero-image img {
+    width: 220px;
+    margin-top: 20px;
+  }
+
+  .clients {
+    width: 95%;
+  }
+
+  .clients-content {
+    margin: -25px !important;
+  }
+
+  .clients-content h2 {
+    font-size: 35px;
+  }
+
+  .clients-content span {
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+
+  .clients-content p {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .clients-image {
+    width: 250px;
+    margin: -18px;
+  }
+
+  .testimonial-card img {
+    width: 270px;
+  }
+
+  .testimonial-content p {
+    font-size: 18px;
+  }
+
+  .testimonial-card {
+    height: 140vh;
+  }
+
+  .testimonial {
+    height: 200vh;
+  }
+
+  .testimonial .social-link {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-link i {
+    font-size: 30px !important;
+  }
+
+  .slider-controls {
+    margin-top: 20px;
+  }
+
+  #main-slider {
+    width: 250vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 200px;
+  }
+
+  .counter {
+    height: 95vh;
+  }
+
+  .call-to-action-content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    color: white;
+    padding: 0px !important;
+  }
+
+  .call-to-action-content h2 {
+    line-height: 35px;
+    font-size: 22px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .call-to-action-content p{
+    font-size: 17px;
+  }
+
+  .hireus{
+    font-size: 20px !important;
+  }
+
+  .footer-logo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  footer{
+    height: 115vh;
+  }
+
+  footer ul{
+    margin: 0px;
+  }
+}
+
+
+@media only screen and (max-device-width: 360px) {
+  .hero-content h1 {
+    width: 90% !important;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 36px !important;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+
+  .hero-content p {
+    padding-top: -0px !important;
+  }
+
+  .hero-button {
+    display: flex !important;
+    flex-direction: row;
+
+    margin: 0px !important;
+  }
+
+  .header {
+    width: 95%;
+  }
+
+  .hero-button button {
+    width: 155px !important;
+  }
+
+  .hero-image img {
+    width: 220px;
+    margin-top: 20px;
+  }
+
+  .clients {
+    width: 95%;
+  }
+
+  .clients-content {
+    margin: -25px !important;
+  }
+
+  .clients-content h2 {
+    font-size: 35px;
+  }
+
+  .clients-content span {
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+
+  .clients-content p {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .clients-image {
+    width: 250px !important;
+    margin: -20px !important;
+  }
+
+  .testimonial-card img {
+    width: 270px;
+  }
+
+  .testimonial-content p {
+    font-size: 18px;
+  }
+
+  .testimonial-card {
+    height: 140vh;
+  }
+
+  .testimonial {
+    height: 200vh;
+  }
+
+  .testimonial .social-link {
+    width: 50px;
+    height: 50px;
+  }
+
+  .social-link i {
+    font-size: 30px !important;
+  }
+
+  .slider-controls {
+    margin-top: 20px;
+  }
+
+  #main-slider {
+    width: 250vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 200px;
+  }
+
+  .counter {
+    height: 95vh;
+  }
+
+  .call-to-action-content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    color: white;
+    padding: 0px !important;
+  }
+
+  .call-to-action-content h2 {
+    line-height: 35px;
+    font-size: 22px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .call-to-action-content p{
+    font-size: 17px;
+  }
+
+  .hireus{
+    font-size: 20px !important;
+  }
+
+  .footer-logo{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  footer{
+    height: 115vh;
+  }
+
+  footer ul{
+    margin: 0px;
+  }
+}
+
+
+/* Hiring Form */
+.HiringPageStyle{
+    font-weight: bolder !important;
+
+}
+.fontWeight{
+  font-weight: bolder !important;
+}
+.fonntWeigh{
+  font-weight: bolder;
+  font-size: 20px;
+}
+.buttonWidth{
+  width: 22% !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email], input[type=tel], input[type=file], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=email], input[type=tel], input[type=file], textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  /* background-color: #2f2fe8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none; */
+  cursor: pointer;
+  /* width: 100%; */
+  /* opacity: 0.9; */
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Submit button */
+.signup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00a6f2;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  border: none;
+}
+/* EMployers Form Style */
+.signupemployer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f75622;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  border: none;
+}
+/* .formFileStyle{
+  display: flex;
+  flex-direction: column;
+} */
+
+/* Float cancel and signup buttons and add an equal width */
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+.signupbtn {
+     width: 100%;
+  }
 }

@@ -1,155 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Sitemach Hire an highly professional developer or designer"
-    />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitemach Hire an highly professional developer or designer" />
     <title>Sitmach</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- FONT USAGE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-
-  <body>
+<body>
     <header>
-      <section class="navigation">
-        <div class="container">
-          <div class="brand">
-            <a href="#">
-              <img src="img/logo.png" alt="" />
-            </a>
-          </div>
-          <nav>
-            <div class="nav-mobile">
-              <a id="nav-toggle" href="#"><span></span></a>
-            </div>
-            <ul class="nav-list">
-              <li>
-                <a href="#">Find a Job</a>
-              </li>
-              <li>
-                <a href="#">Find Talents</a>
-              </li>
-
-              <li>
-                <a href="#">About Us</a>
-              </li>
-
-              <li>
-                <a href="#">Community</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-      <section class="hero-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="hero-content">
-                <h1>
-                  Build remote engineering teamswith the world’s top talent.
-                </h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Platea faucibus nisl porttitor purus netus purus sit.Lorem
-                  ipsum dolor sit amet,consec tetur adipiscing elit. Platea
-                  faucibusnisl porttitor purus netus purus sit. faucibusnisl
-                  porttitor purus netus purus sit.
-                </p>
-              </div>
-              <div class="hero-button">
-                <div class="btn-container">
-                  <button class="hire">Hire Developer</button>
-                  <button class="job">Find Job</button>
+        <section class="navigation">
+            <div class="container">
+                <div class="brand">
+                    <a href="#">
+                        <img src="img/logo.png" alt="">
+                    </a>
                 </div>
-              </div>
+                <nav>
+                    <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#EmploymentId" onclick="document.getElementById('EmploymentId').style.display='block'">Find a Job</a>
+                        </li>
+                        <li>
+                            <a href="#HiringId1" onclick="document.getElementById('HiringId1').style.display='block'">Find Talents</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Community</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="col-lg-6">
-              <div class="hero-image">
-                <img src="img/sitemach-hero.png" alt="" />
-              </div>
+        </section>
+        <section class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="hero-content">
+                            <h1>We help in achieving digital goals.</h1>
+                            <!-- <h1>We assist entrepreneurs in achieving their digital goals.</h1> -->
+                            <p>
+                                We make our clients products/services stand out among others through creativities and our skills.
+                                <!-- Work with our experienced Web Developers, Social Media Managers and Graphics Designers, Mobile Developers, Business Analyst, Web Designers who have a dedicated team to help them maintain highest productivity levels.<br />
+                                With little amount of money you can get your products/services known all over the world. -->
+                            </p>
+                        </div>
+                        <div class="hero-button">
+                            <div class="btn-container">
+                                <button class="hire hireSecondClass" onclick="document.getElementById('HiringId1').style.display='block'">Hire a Developer</button>
+                                <button class="job" onclick="document.getElementById('EmploymentId').style.display='block'">Find Job</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-image">
+                            <img src="img/sitemach-hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </header>
 
     <section class="clients py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="offset-lg-1 offset-sm-0">
+                    <div class="clients-content d-flex">
+                        <h2>Our Clients</h2>
+                        <span></span>
+                        <p>Trusted by the most people-centre companies</p>
+                    </div>
+                    <div class="clients-image">
+                        <img src="img/ingressive.jpg" alt="">
+                        <img src="img/Malhub.jpg" alt="">
+                        <img src="img/Ilorin.jpg" alt="">
+                        <img src="img/Kanispace.jpg" alt="">
+                        <img src="img/Woman.jpg" alt="">
+                        <img src="img/Afrilabs.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-heading">
+                <h1>What People <br>
+                    Say About Us</h1>
+                <!-- <p>People we’ve worked with and for have said some nice things...</p> -->
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-12">
+                                    <div class="testimonial-image">
+                                        <img src="img/testimonail-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="testimonial-content">
+                                        <h2>Abolarin Ayomide</h2>
+                                        <h3>Product Design Lead, KANISPACE.</h3>
+                                        <p>“SiteMach was realpleasure to work with and we look forward to working with
+                                            the team
+                                            again. Team definitely the kind of designers you can trust with a project
+                                            from start to
+                                            finish.”</p>
+                                    </div>
+                                    <div class="testimonial-social">
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </a>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-facebook'></i>
+                                            </a>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-twitter'></i>
+                                            </a>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-instagram'></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="testimonial-image">
+                                        <img src="img/testimonail-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="testimonial-content">
+                                        <h2>Abolarin Ayomide</h2>
+                                        <h3>Product Design Lead, KANISPACE.</h3>
+                                        <p>“SiteMach was realpleasure to work with and we look forward to working with
+                                            the team
+                                            again. Team definitely the kind of designers you can trust with a project
+                                            from start to
+                                            finish.”</p>
+                                    </div>
+                                    <div class="testimonial-social">
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </a>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-facebook'></i>
+                                            </a>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-twitter'></i>
+                                            </a>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-instagram'></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="testimonial-image">
+                                        <img src="img/testimonail-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="testimonial-content">
+                                        <h2>Abolarin Ayomide</h2>
+                                        <h3>Product Design Lead, KANISPACE.</h3>
+                                        <p>“SiteMach was realpleasure to work with and we look forward to working with
+                                            the team
+                                            again. Team definitely the kind of designers you can trust with a project
+                                            from start to
+                                            finish.”</p>
+                                    </div>
+                                    <div class="testimonial-social">
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </a>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-facebook'></i>
+                                            </a>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-twitter'></i>
+                                            </a>
+                                        </div>
+                                        <div class="social-link">
+                                            <a href="#">
+                                                <i class='bx bxl-instagram'></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="project">
+        <div class="container">
+            <div class="project-heading">
+                <h2>Check our portfolio</h2>
+                <p>These are some of the works done by <span style="color: #f75622; font-size: bolder;">Site</span><span style="color: #00a6f2; font-size: bolder;">Mach</span> </p>
+            </div>
+            <div id="slider-container">
+                <div class="slider-controls">
+                    <div id="pre" class="slider-btn">
+                        <i class='bx bx-left-arrow-alt' aria-hidden="true"></i>
+                    </div>
+                    <div id="nex" class="slider-btn">
+                        <i class='bx bx-right-arrow-alt' aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div id="main-slider">
+                    <div id="side-1" class="slide card active">
+                        <img class="card-img-top" src="img/website-design.png" />
+                        <div class="card-body">
+                            <h5 id="title-lavado" class="card-title">
+                                Website Design
+                            </h5>
+                            <p class="card-text">
+                                This is a Web Designed by our proficient Web Designers
+                            </p>
+
+                        </div>
+                    </div>
+                    <div id="side-2" class="slide card">
+                        <img class="card-img-top" src="img/landing-page.png" />
+                        <div class="card-body">
+                            <h5 id="title-anticorrupcion" class="card-title">
+                                Landing Page
+                            </h5>
+                            <p class="card-text">
+                                Landing Page Designed and Built by our Web Designers and Web Developers
+                            </p>
+
+                        </div>
+                    </div>
+                    <div id="side-3" class="slide card">
+                        <img class="card-img-top" src="img/barbie.png" />
+                        <div class="card-body">
+                            <h5 id="title-sumariales" class="card-title">
+                                Barbing Saloon App
+                            </h5>
+                            <p class="card-text">
+                                A Mobile app built by our Mobile App Developers
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- <div id="side-4" class="slide card">
+                        <img class="card-img-top" src="img/landing-page.png" />
+                        <div class="card-body">
+                            <h5 id="title-anticorrupcion" class="card-title">
+                                Landing Page
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi molestias delectus
+                                quos!
+                            </p>
+
+                        </div>
+                    </div> -->
+                    <!-- <div id="side-5" class="slide card">
+                        <img class="card-img-top" src="img/website-design.png" />
+                        <div class="card-body">
+                            <h5 id="title-lavado" class="card-title">
+                                Website Design
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi molestias delectus
+                                quos!
+                            </p>
+
+                        </div>
+                    </div> -->
+                    <div id="side-6" class="slide card">
+                        <img class="card-img-top" src="img/barbie.png" />
+                        <div class="card-body">
+                            <h5 id="title-sumariales" class="card-title">
+                                A Blogging Website
+                            </h5>
+                            <p class="card-text">
+                                A blogging website designed and built by our web designers and developers.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slide-indicator-container"></div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="counter">
+        <div id="projectFacts" class="sectionClass">
+            <div class="fullWidth eight columns">
+                <div class="projectFactsWrap ">
+                    <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
+                        <img src="img/Vector.svg" alt="">
+                        <p id="number1" class="number">123+</p>
+                        <span></span>
+                        <p>Project Completed</p>
+                    </div>
+                    <div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
+                        <img src="img/octicon_people-24.svg" alt="">
+                        <p id="number2" class="number">70</p>
+                        <span></span>
+                        <p>Satisfied Client</p>
+                    </div>
+                    <div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible;">
+                        <img src="img/clarity_shield-check-line.svg" alt="">
+                        <p id="number3" class="number">15</p>
+                        <span></span>
+                        <p>Active Project</p>
+                    </div>
+                    <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
+                        <img src="img/Vector (1).svg" alt="">
+                        <p id="number4" class="number">30</p>
+                        <span></span>
+                        <p>Team Member</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="call-to-action bg-white d-flex align-items-center my-5 py-5">
+        <div class="container">
+            <div class="call-to-action-content d-flex flex-row align-items-center card px-5 text-white"
+                style="background: #0e6fff; min-height:30vh; border-radius: 20px;">
+                <div class="col-8">
+                    <h2>Have Any Project In Mind</h2>
+                    <div class="hr"></div>
+                    <p style="line-height: 25px;">
+                      With <span style="color: #f75622; font-size: bolder;">Site</span><span style="color: #00a6f2; font-size: bolder;">Mach</span> your business/project will stand out among others. <br />
+                      We are here for the growth of the communities and businesses.<br />
+                      Don't be afraid of reaching out, we will always help at all cost in making your dream project/business fulfilled.<br />
+                      A trial will convince you.
+                    </p>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <button class="hireus btn btn-light text-blue px-5 py-3" onclick="document.getElementById('HiringId1').style.display='block'">Hire Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hring Page Form -->
+
+    <!-- The Modal (contains the Hiring form) -->
+<div id="HiringId1" class="modal">
+    <span onclick="document.getElementById('HiringId1').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="">
       <div class="container">
-        <div class="row">
-          <div class="offset-1">
-            <div class="clients-content d-flex">
-              <h2>Our Clients</h2>
-              <span></span>
-              <p>Trusted by the most people-centre companies</p>
-            </div>
-            <div class="clients-image">
-              <img src="img/ingressive.jpg" alt="" />
-              <img src="img/Malhub.jpg" alt="" />
-              <img src="img/Ilorin.jpg" alt="" />
-              <img src="img/Kanispace.jpg" alt="" />
-              <img src="img/Woman.jpg" alt="" />
-              <img src="img/Afrilabs.jpg" alt="" />
-            </div>
-          </div>
+        <h2 class="HiringPageStyle">What kind of developer/business expert are you looking to hire?</h2>
+          <textarea id="subject" name="subject" placeholder="A developer with proficient  experience in ReactJs, VueJs, NextJs, PHP, Laravel, HTML, NodeJs, Business Administrator, Data Analyst, Web Designer, WordPress Developer, Mobile Application Developer, Blockchain Developer, Marketer..." style="height:200px"></textarea>
+          <hr>
+  
+          <h2 class="HiringPageStyle mb-4">How can we reach you?</h2>
+        <label for="Full Name"><b>Full Name</b></label>
+          <input type="text" placeholder="Enter Full Name" name="Full Name" required>
+  
+          <label for="Work Email"><b>Work Email</b></label>
+          <input type="email" placeholder="Enter Email Address" name="email" required />
+  
+  
+          <label for="phone-number"><b>Phone Number</b></label>
+          <input type="tel" placeholder="Enter Phone Number" name="phone-number" required>
+  
+        <div class="clearfix">
+          <button type="submit" class="signup">Submit</button>
         </div>
       </div>
-    </section>
-    <!-- hire container -->
-    <section class="bg-white d-flex align-items-center mb-3" style="min-height:60vh">
-      <div class="container">
-        <div class="d-flex flex-row align-items-center card px-5 text-white" style="background: #0e6fff; min-height:30vh; border-radius: 30px;">
-          <div class="col-8">
-            <h2>Have Any Project In Mind</h2>
-            <div class="hr"></div>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-              laudantium commodi dolorum, blanditiis, nam nemo perspiciatis ipsa
-              vero deleniti odit dolores repudiandae? Explicabo labore tempora,
-              autem aperiam, dignissimos .
-            </p>
-          </div>
-          <div class="col-4 d-flex justify-content-center">
-            <button class="btn btn-light text-blue px-4 py-3">Hire Us</button>
-          </div>
+    </form>
+  </div>
+
+
+<!-- Developer's Employing Form -->
+
+  <!-- The Modal (contains the Hiring form) -->
+<div id="EmploymentId" class="modal">
+    <span onclick="document.getElementById('EmploymentId').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="">
+      <div class="container secondFormContainer">
+          <!-- What role did you want to get employed? -->
+        <h2 class="HiringPageStyle">Cover Letter</h2>
+          <textarea id="subject" name="subject" placeholder="We need people with proficient  experience in ReactJs, VueJs, NextJs, PHP, Laravel, HTML, NodeJs, Business Administrator, Data Analyst, Web Designer, WordPress Developer, Mobile Application Developer, Blockchain Developer, Marketer..." style="height:200px"></textarea>
+          <hr>
+  
+          <h2 class="HiringPageStyle mb-4">How can we reach you?</h2>
+        <label for="Full Name"><b>Full Name</b></label>
+          <input type="text" placeholder="Enter Full Name" name="Full Name" required>
+  
+          <label for="Work Email"><b>Work Email</b></label>
+          <input type="email" placeholder="Enter Email Address" name="email" required />
+
+            <div class="formFileStyle">
+                <label for="Work Email"><b>Upload Your CV</b></label>
+          <input type="file" placeholder="Upload CV" required />
+            </div>
+            
+          <label for="phone-number"><b>Phone Number</b></label>
+          <input type="tel" placeholder="Enter Phone Number" name="phone-number" required>
+  
+        <div class="clearfix">
+          <button type="submit" class="signupemployer">Submit</button>
         </div>
       </div>
-    </section>
+    </form>
+  </div>
+  
+  <script>
+    // Get the modal
+    var modal = document.getElementById('HiringId1');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
     <!-- footer -->
-    <footer class="py-5" style="background-color: lightgray;">
+    <footer class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-5">
-                    <div class="d-flex flex-column text-center">
+                    <div class="footer-logo d-flex flex-column text-center">
                         <a href="#">
                             <img src="img/logo.png" alt="" />
-                          </a>
-                        <a href="">siteMach@gmail.com</a>
-                        <a href="" style="color: #00a6f2;">+23490879098</a>
+                        </a>
+                        <a class="mailto:siteMach@gmail.com" href="">siteMach@gmail.com</a>
+                        <a class="numb" href="#" >+234 814 636 7757</a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-2">
                     <ul>
-                        <li style="font-weight: 700;" class="mb-3">Quick Links</li>
-                        <li><a href="">Find a job</a></li>
-                        <li><a href="">Find talent</a></li>
+                        <li class="head mb-3">Quick Links</li>
+                        <li><a href="#EmploymentId" onclick="document.getElementById('EmploymentId').style.display='block'">Find a job</a></li>
+                        <li><a href="#HiringId1" onclick="document.getElementById('HiringId1').style.display='block'">Find talent</a></li>
                         <li><a href="">Community</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-2">
                     <ul>
-                        <li style="font-weight: 700;" class="mb-3">Products</li>
+                        <li class="head mb-3">Products</li>
                         <li><a href="">About SiteMach</a></li>
                         <li><a href="">Jobs</a></li>
                         <li><a href="">Team</a></li>
@@ -159,7 +516,7 @@
                 </div>
                 <div class="col-sm-12 col-md-3">
                     <ul>
-                        <li style="font-weight: 700;" class="mb-3">Products</li>
+                        <li class="head mb-3">Products</li>
                         <li><a href="">Ecommerce</a></li>
                         <li><a href="">Finance</a></li>
                         <li><a href="">Landing page</a></li>
@@ -169,16 +526,23 @@
                 </div>
             </div>
         </div>
-        <div class="text-center mt-4" style="font-weight: 600;">
-            <p>&copy; <script>document.write(new Date().getFullYear())</script> <span style="color: #00a6f2;">Site</span><span style="color: #f55f2e;">Mach.</span> All right reserved</p>
+        <div class="text-center mt-5" style="font-weight: 600;">
+            <p>&copy; <script>
+                    document.write(new Date().getFullYear())
+                </script> <span style="color: #00a6f2;">Site</span><span style="color: #f55f2e;">Mach.</span> All right
+                reserved</p>
         </div>
     </footer>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
     <script src="js/script.js"></script>
-  </body>
+</body>
+
 </html>
