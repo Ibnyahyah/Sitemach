@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600&family=Varela&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ABOUT US</title>
+</head>
+<body>
+    <header>
+        <section class="navigation bg-white">
+            <div class="container">
+                <div class="brand">
+                    <a href="#">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <nav>
+                    <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#EmploymentId" onclick="document.getElementById('EmploymentId').style.display='block'">Find a Job</a>
+                        </li>
+                        <li>
+                            <a href="#HiringId1" onclick="document.getElementById('HiringId1').style.display='block'">Find Talents</a>
+                        </li>
+
+                        <li>
+                            <a href="./about.html">About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="./community.html">Community</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <section class="container-fluid aboutUsContainerWidth mt-5">
+        <div class="text-center aboutUsContent">
+            <h1 class="aboutHeaderTitle text-center">Hi, We're Sitemach</h1>
+            <p class="aboutHeaderText text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eum vel voluptate, autem nam repellendus veniam dolore, quos exercitationem molestiae, commodi mollitia nobis praesentium consequuntur nostrum ipsum at? Cum, illum.</p>
+        </div>
+    </section>
+    
+
+    <section class="text-center mt-5">
+        <div class="row">
+            <div class="col">
+                <img class="aboutUsImgOne mx-5" src="./img/Tech_Life_Remote_Life.jpg" alt="Tech_Life_Remote_Life_Avatar">
+            </div>
+            <div class="col">
+                <p class="textWrap">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nam autem itaque quas voluptates, minus corporis optio deserunt cumque nihil, libero ea perspiciatis vel qui accusamus, ullam consequatur fugiat dolor?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio non, rem totam distinctio, perspiciatis, placeat quas magnam numquam nostrum mollitia quibusdam! Tempora ducimus voluptates dolorem excepturi et placeat dolores architecto.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p  class="textWrap aboutUsSectionTwo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur placeat possimus error animi quia deserunt ullam, cum dignissimos optio. Corporis explicabo mollitia ipsa repudiandae nostrum obcaecati dolores commodi aperiam aut.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci odit accusantium exercitationem cumque, sapiente minima, reiciendis labore nam, vitae iure illo praesentium vero distinctio sit deleniti voluptas velit pariatur perspiciatis.
+                </p>
+            </div>
+            <div class="col">
+                <img class="aboutUsImgOne aboutUsSectionTwoImage" src="./img/img2.jpg" alt="Avatar">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="aboutUsImgOne mx-5" src="./img/img3.jpg" alt="Avatar">
+            </div>
+            <div class="col">
+                <p class="textWrap">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio nam autem itaque quas voluptates, minus corporis optio deserunt cumque nihil, libero ea perspiciatis vel qui accusamus, ullam consequatur fugiat dolor?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio non, rem totam distinctio, perspiciatis, placeat quas magnam numquam nostrum mollitia quibusdam! Tempora ducimus voluptates dolorem excepturi et placeat dolores architecto.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid aboutUsContainerWidth mt-5 mb-5">
+        <div class="text-center aboutUsContent">
+            <h1 class="aboutHeaderTitle text-center">At SiteMach Our Clients Satisfaction is our concern.</h1>
+        </div>
+    </section>
+
+
+
+
+
+        <!-- Hring Page Form -->
+
+    <!-- The Modal (contains the Hiring form) -->
+<div id="HiringId1" class="modal">
+    <span onclick="document.getElementById('HiringId1').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="">
+      <div class="container">
+        <h2 class="HiringPageStyle">What kind of developer/business expert are you looking to hire?</h2>
+          <textarea id="subject" name="subject" placeholder="A developer with proficient  experience in ReactJs, VueJs, NextJs, PHP, Laravel, HTML, NodeJs, Business Administrator, Data Analyst, Web Designer, WordPress Developer, Mobile Application Developer, Blockchain Developer, Marketer..." style="height:200px"></textarea>
+          <hr>
+  
+          <h2 class="HiringPageStyle mb-4">How can we reach you?</h2>
+        <label for="Full Name"><b>Full Name</b></label>
+          <input type="text" placeholder="Enter Full Name" name="Full Name" required>
+  
+          <label for="Work Email"><b>Work Email</b></label>
+          <input type="email" placeholder="Enter Email Address" name="email" required />
+  
+  
+          <label for="phone-number"><b>Phone Number</b></label>
+          <input type="tel" placeholder="Enter Phone Number" name="phone-number" required>
+  
+        <div class="clearfix">
+          <button type="submit" class="signup">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+<!-- Developer's Employing Form -->
+
+  <!-- The Modal (contains the Hiring form) -->
+<div id="EmploymentId" class="modal">
+    <span onclick="document.getElementById('EmploymentId').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="">
+      <div class="container secondFormContainer">
+          <!-- What role did you want to get employed? -->
+        <h2 class="HiringPageStyle">Cover Letter</h2>
+          <textarea id="subject" name="subject" placeholder="We need people with proficient  experience in ReactJs, VueJs, NextJs, PHP, Laravel, HTML, NodeJs, Business Administrator, Data Analyst, Web Designer, WordPress Developer, Mobile Application Developer, Blockchain Developer, Marketer..." style="height:200px"></textarea>
+          <hr>
+  
+          <h2 class="HiringPageStyle mb-4">How can we reach you?</h2>
+        <label for="Full Name"><b>Full Name</b></label>
+          <input type="text" placeholder="Enter Full Name" name="Full Name" required>
+  
+          <label for="Work Email"><b>Work Email</b></label>
+          <input type="email" placeholder="Enter Email Address" name="email" required />
+
+            <div class="formFileStyle">
+                <label for="Work Email"><b>Upload Your CV</b></label>
+          <input type="file" placeholder="Upload CV" required />
+            </div>
+            
+          <label for="phone-number"><b>Phone Number</b></label>
+          <input type="tel" placeholder="Enter Phone Number" name="phone-number" required>
+  
+        <div class="clearfix">
+          <button type="submit" class="signupemployer">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+  <script>
+    // Get the modal
+    var modal = document.getElementById('HiringId1');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+
+    <!-- footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5">
+                    <div class="footer-logo d-flex flex-column text-center">
+                        <a href="#">
+                            <img src="img/logo.png" alt="" />
+                        </a>
+                        <a class="mailto:siteMach@gmail.com" href="">siteMach@gmail.com</a>
+                        <a class="numb" href="#" >+234 814 636 7757</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <ul>
+                        <li class="head mb-3">Quick Links</li>
+                        <li><a href="#EmploymentId" onclick="document.getElementById('EmploymentId').style.display='block'">Find a job</a></li>
+                        <li><a href="#HiringId1" onclick="document.getElementById('HiringId1').style.display='block'">Find talent</a></li>
+                        <li><a href="">Community</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <ul>
+                        <li class="head mb-3">Products</li>
+                        <li><a href="./about.html">About SiteMach</a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Team</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Testimonial</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <ul>
+                        <li class="head mb-3">Products</li>
+                        <li><a href="">Ecommerce</a></li>
+                        <li><a href="">Finance</a></li>
+                        <li><a href="">Landing page</a></li>
+                        <li><a href="">Social</a></li>
+                        <li><a href="">Feed</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5" style="font-weight: 600;">
+            <p>&copy; <script>
+                    document.write(new Date().getFullYear())
+                </script> <span style="color: #00a6f2;">Site</span><span style="color: #f55f2e;">Mach.</span> All right
+                reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
