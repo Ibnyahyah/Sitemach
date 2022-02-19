@@ -1356,6 +1356,7 @@ hr {
   font-family: 'Inter', sans-serif;
   font-style: normal;
 font-weight: 600;
+font-size: 52px;
 letter-spacing: -0.02em;
 height: 56px;
 line-height: 56px;
@@ -1364,11 +1365,10 @@ color: #fff;
 .aboutHeaderText{
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  font-size: 24px;
   line-height: 32px;
-  width:85%;
   word-wrap: break-word;
   margin: 30px 0px;
-  padding-left: 170px;
   letter-spacing: -0.02em;
 font-style: normal;
 color: #fff;
@@ -1378,7 +1378,7 @@ color: #fff;
   word-wrap: break-word;
 }
 .aboutUsImgOne{
-  width: 50%;
+  width: 70%;
   height: auto;
 }
 .aboutUsSectionTwo{
@@ -1394,6 +1394,7 @@ color: #fff;
 .communityTextOpacity{
   font-family: Inter;
 font-style: normal;
+font-size: 24px;
 font-weight: 500;
 opacity: 0.7;
 flex: none;
@@ -1402,6 +1403,230 @@ flex-grow: 0;
 color: #fff;
 }
 .siteMachEventHeading{
+font-family: Inter;
+font-style: normal;
+font-size: 52px;
+}
+.communityHeaderStyle{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-size: 52px;
+font-weight: 600;
+letter-spacing: -0.02em;
+height: 56px;
+line-height: 56px;
+color: #fff;
+}
+.communityHeaderParaghraphStyle{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  width: 98%;
+  word-wrap: break-word;
+  margin-bottom: 170px;
+  letter-spacing: -0.02em;
+  font-style: normal;
+  color: #fff;
+}
+.siteMachEventHeading{
   font-family: Inter;
 font-style: normal;
+font-weight: 500;
+line-height: 56px;
+/* identical to box height, or 108% */
+
+letter-spacing: -0.02em;
+  height: 56px;
+}
+.communityConnectStyle{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+font-size: 24px;
+/* or 133% */
+
+letter-spacing: -0.02em;
+  height: 33px;
+}
+.communityUpcmEventsStyles{
+  background-color: #00a6f2;
+  color: #fff;
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+padding: 52px 119px;
+height: 144px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.02em;
+}
+.btn-color2{
+  background: rgba(0, 166, 242, 0.1);
+  padding: 52px 188px;
+  height: 144px;
+  font-family: Inter;
+font-style: normal;
+letter-spacing: -0.02em;
+color: #00A6F2;
+margin: 0px 10px;
+}
+.card-title{
+  font-family: Inter;
+font-style: normal;
+font-weight: 600;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+letter-spacing: -0.02em;
+}
+.card-text{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+/* or 129% */
+
+letter-spacing: -0.02em;
+
+/* Primary/100 */
+
+color: #00A6F2;
+}
+.btn-card-bottom{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+position: absolute;
+left: 0;
+bottom: 0;
+letter-spacing: -0.02em;
+
+/* Secondary/100 */
+
+color: #F75622;
+}
+.card{
+  box-shadow: 5px 10px #888888;
+  margin-right: 5px;
+}
+.communityViewMoreEvents{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 30px 40px;
+
+
+height: 94px;
+
+
+background: #00A6F2;
+}
+.communityViewMoreEvents > p{
+  font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.EventButton{
+  /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 52px 119px;
+
+
+width: 591px;
+height: 144px;
+
+
+/* Primary/100 */
+
+background: #00A6F2;
+}
+.EventButton > p{
+  height: 40px;
+
+/* Heading H3/Medium */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.pastEvent{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 52px 188px;
+
+width: 592px;
+height: 144px;
+
+/* Primary/10 */
+
+background: rgba(0, 166, 242, 0.1);
+}
+.pastEvent > span{
+  width: 216px;
+height: 40px;
+
+
+/* Heading H3/Medium */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+letter-spacing: -0.02em;
+
+/* Primary/100 */
+
+color: #00A6F2;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
 }
