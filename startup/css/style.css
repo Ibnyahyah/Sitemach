@@ -1346,52 +1346,43 @@ hr {
 /* About Us Styles */
 
 .aboutUsContent{
+  margin-bottom: 70px;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #00A6F2;
+  background-size: cover;
 }
 .aboutHeaderTitle{
   font-family: 'Inter', sans-serif;
   font-style: normal;
 font-weight: 600;
 letter-spacing: -0.02em;
-text-align: center;
 height: 56px;
 line-height: 56px;
-letter-spacing: -0.02em;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 30px 0px;
-  color: #fff;
+color: #fff;
 }
 .aboutHeaderText{
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   line-height: 32px;
-  width: 75%;
+  width:85%;
   word-wrap: break-word;
   margin: 30px 0px;
+  padding-left: 170px;
   letter-spacing: -0.02em;
-  text-align: center;
-  margin: 30px 0px;
-  padding-left: 350px;
 font-style: normal;
 color: #fff;
-flex: none;
-order: 1;
-flex-grow: 0;
 }
 .textWrap{
   width: 50%;
   word-wrap: break-word;
 }
 .aboutUsImgOne{
-  width: 40%;
+  width: 50%;
   height: auto;
 }
 .aboutUsSectionTwo{
-  margin-left: 150px;
+  
 }
 
 
