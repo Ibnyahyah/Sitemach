@@ -104,7 +104,6 @@ $(document).ready(function () {
 });
 
 
-
 $.fn.jQuerySimpleCounter = function( options ) {
   var settings = $.extend({
       start:  0,
@@ -126,6 +125,7 @@ $.fn.jQuerySimpleCounter = function( options ) {
   complete: settings.complete
 });
 };
+
 
 
 $('#number1').jQuerySimpleCounter({end: 123,duration: 6000});
