@@ -2,6 +2,8 @@
 
 .navigation {
   height: 70px;
+  display: flex;
+  align-items: center;
 }
 
 body {
@@ -104,6 +106,8 @@ nav ul li ul li a {
 
   nav ul {
     display: none;
+    position: absolute;
+    top: 60px;
   }
 
   nav ul li {
@@ -465,9 +469,6 @@ nav ul li ul li a {
 }
 
 /* Project */
-.project {
-  /* height: 150vh; */
-}
 
 .project-heading {
   padding-top: 70px;
@@ -479,10 +480,7 @@ nav ul li ul li a {
   font-weight: 600;
   font-size: 52px;
   line-height: 110%;
-  /* or 57px */
-
   letter-spacing: -0.03em;
-
   color: #000000;
 }
 
@@ -492,7 +490,6 @@ nav ul li ul li a {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
   padding-top: 20px;
   color: #000000;
 }
@@ -778,21 +775,6 @@ footer li a {
   color: #000000;
 }
 
-.numb {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  /* identical to box height, or 140% */
-
-  letter-spacing: -0.02em;
-
-  /* Primary/100 */
-
-  color: #00a6f2;
-}
-
 .call-to-action-content {
   min-height: 30vh;
 }
@@ -867,21 +849,16 @@ footer li a {
 }
 
 .about-desc .img {
-  position: static;
-  width: 70% !important;
-  height: 350px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  width: 100%;
 }
 
-.about-desc .img image {
+.about-desc .img img {
   width: 100%;
   height: 100%;
 }
 
 .about-desc .last {
-  margin-left: -50px;
+  /* margin-left: 50px; */
 }
 
 .leadership {
@@ -1248,17 +1225,16 @@ footer li a {
   .hireus {
     font-size: 20px !important;
   }
+  .about-desc .middle-reverser {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
   .about-desc .header p {
     width: 95%;
     margin: auto;
   }
   .about-desc .last {
-    /* margin-left: -50px; */
     width: 100%;
-  }
-  .about-desc .last img {
-    width: 100vw !important;
-    margin: auto;
   }
 
   .footer-logo {
